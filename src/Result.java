@@ -9,8 +9,8 @@ public class Result {
 
     @Override
     public String toString() {
-        return "\nDiscipline: " + discipline +
-                "\nName of competition: " + competitionName +
-                "\nResult ín seconds: " + resultInSeconds + "\n";
+        return "\n     Discipline: " + discipline +
+                "\n     Name of competition: " + competitionName +
+                "\n     Result ín seconds: " + resultInSeconds + "\n";
     }
 }
