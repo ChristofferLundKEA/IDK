@@ -29,5 +29,6 @@ public class MemberList {
             }
         }
         if (!found) System.out.println("No such ID found");
+        else{}; // write to file
     }
 }

@@ -8,8 +8,12 @@ public class Main {
 
 
         Controller.createNewMember();
-        MemberList.listWhoNeedsToPay();
+//        MemberList.listWhoNeedsToPay();
         MemberList.retrieveMemberInfoFromMemberID();
-        MemberList.editMemberHasPaidStatus();
+//        MemberList.editMemberHasPaidStatus();
+
+        Controller.createNewResult();
+
+        MemberList.retrieveMemberInfoFromMemberID();
     }
 }
