@@ -19,9 +19,9 @@ public class Controller {
         System.out.println("Age: " + newMember.age);
         System.out.println("Team: " + newMember.team);
         System.out.println("Personal member ID: " + newMember.memberID);
-        System.out.println("PhoneNumber: " + newMember.phoneNumber);
+        System.out.println("Phone: " + newMember.phoneNumber);
 
-        String add = InputManager.takeScannerString("Add member to member list? y/n");
+        String add = InputManager.takeScannerString("Add member to list? y/n");
         if (add.toLowerCase().equals("y")) MemberList.memberList.add(newMember); // fixing else-statement later :)
     }
 
