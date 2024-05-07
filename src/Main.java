@@ -10,5 +10,6 @@ public class Main {
         Controller.createNewMember();
         MemberList.listWhoNeedsToPay();
         MemberList.retrieveMemberInfoFromMemberID();
+        MemberList.editMemberHasPaidStatus();
     }
 }
